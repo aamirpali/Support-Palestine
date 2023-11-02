@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         .banner {
-            background-image: url('https://media.publit.io/file/download-7L.png'); /* Replace with the path to your flag image */
-            background-size: cover;
-            background-position: center;
-            padding: 20px;
-            color: #fff;
-            opacity: 0.7; /* Add transparency (adjust as needed) */
-            text-align: center;
-        }
+    background-image: url('https://media.publit.io/file/download-7L.png'); /* Replace with the path to your flag image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #fff;
+    opacity: 0.5; /* Adjust the opacity as needed (0.0 to 1.0) */
+    text-align: center;
+}
+
 
         .banner img {
-            max-width: 100%;
+            max-width: 60%;
             height: auto;
             border: 5px solid #fff;
             border-radius: 50%;
@@ -47,6 +48,22 @@
             text-align: center;
             padding: 10px 0;
         }
+      
+      @media (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* Decrease the font size for h1 on smaller screens */
+    }
+
+    p {
+        font-size: 14px; /* Decrease the font size for p on smaller screens */
+    }
+
+    /* Add margin to create space between the paragraphs */
+    p {
+        margin-bottom: 0px;
+      margin-left: 30px;
+    }
+}
     </style>
 </head>
 <body>
